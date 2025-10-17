@@ -27,7 +27,7 @@
     [ngClass]="{'test-report':mainAreaSandbox.fetchCurrentIndex() ===6,'test-border':mainAreaSandbox.fetchCurrentIndex() ===6&&sharedAPI.getTestReportData()}">
     <div fxLayout="column" fxLayoutAlign="center center" *ngIf="sharedAPI.getTestReportData()">
       <div class="report-heading" fxLayout fxLayoutAlign="space-between center">
-        <h3 class="report-title">Matter Test Harness - Test Run Report</h3>
+        <h3 class="report-title">Aliro Test Harness - Test Run Report</h3>
         <p-button class="print-button p-button-rounded" icon="pi pi-print" label="Print" (click)="printDoc();">
         </p-button>
       </div>

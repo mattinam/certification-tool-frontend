@@ -222,7 +222,7 @@ export class ProjectsAPI {
   getShaVersion() {
     this.projectService.getShaVersion().subscribe(
       (data: any) => {
-        this.titleService.setTitle('Matter Test Harness (' + data.version + ')');
+        this.titleService.setTitle('Aliro Test Harness (' + data.version + ')');
         this.sharedStore.setShaVersion(data);
       }
     );

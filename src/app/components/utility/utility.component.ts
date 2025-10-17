@@ -283,7 +283,7 @@ export class UtilityComponent {
           </style>
         </head>
     <body onload="window.print()"><div class="report-heading" fxLayout fxLayoutAlign="space-between center">
-    <h3 class="report-title">Matter Test Harness - Test Run Report</h3>
+    <h3 class="report-title">Aliro Test Harness - Test Run Report</h3>
     
   </div>  
   <div class="report-detail">
