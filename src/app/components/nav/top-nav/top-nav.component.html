@@ -17,7 +17,7 @@
 <p-menubar [ngClass]="{'data-loading': dropdownData.length === 0}">
   <ng-template pTemplate="start">
     <div class="top-nav-start" *ngIf="this.getProjectDataLen() > 0">
-      <img src="../../../../assets/Aliro_logo_vrt_rbg_white.png" class="aliro-logo-icon" alt="">
+      <img src="../../../../assets/Aliro_Mark_White.png" class="aliro-logo-icon" alt="">
       <div class="top-nav-dropdown">
         <p-dropdown [options]="projectsAPI.getProjectData()" [(ngModel)]="headerName" optionLabel="name"
           *ngIf="navSandbox.getCurrentIndex()===1 && sharedAPI.getSelectedProjectType() && projectSandbox.getProjectType().tableName ==='Projects' "
